@@ -51,7 +51,6 @@
 
   a {
     text-decoration: underline;
-    // font-weight: 300;
     color: black;
   }
 
@@ -128,18 +127,18 @@
 
     li {
       margin-bottom: calc(#{$cv-cell} * 0.7);
-    }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+      &:last-child {
+        margin-bottom: 0;
+      }
 
-    img {
-      height: calc(#{$cv-cell} * 2);
-    }
+      img {
+        height: calc(#{$cv-cell} * 2);
+      }
 
-    p {
-      line-height: $cv-font;
+      p {
+        line-height: $cv-cell;
+      }
     }
   }
 
