@@ -1,2 +1,173 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div id="cv-container">
+  <div class="header">
+    <div id="cv-photo">
+      <%= image_tag 'RVB.jpg', alt: 'Rui Vítor Baltazar' %>
+    </div>
+    <div class="info">
+      <h1>Rui Vítor Baltazar</h1>
+      <div class="description">
+        <h2>Full-Stack Web Developer</h2>
+        <h2>Curriculum Vitae</h2>
+      </div>
+      <ul class="contacts">
+        <li><i class="fas fa-map-marker-alt"></i>Lisbon, Portugal</li>
+        <li><i class="fas fa-envelope"></i><a href="mailto:ruivrb@gmail.com?subject=Schedule%20an%20Interview" target="_blank">ruivrb@gmail.com</a></li>
+        <li><i class="fas fa-phone-alt"></i>+351 91 880 1094</li>
+        <li>
+          <a href="https://linkedin.com/in/ruivitorbaltazar" target="_blank"><i class="fab fa-linkedin-in"></i></a> |
+          <a href="https://github.com/ruivitorbaltazar" target="_blank"><i class="fab fa-github"></i></a>
+          /ruivitorbaltazar
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-main">
+    <div class="skills-section">
+      <ul class="tech-skills">
+        <li><%= image_tag 'icons_ruby.svg', alt: 'Ruby' %><p>Ruby</p></li>
+        <li><%= image_tag 'icons_ror.svg', alt: 'Ruby on Rails' %><p>Ruby on Rails</p></li>
+        <li><%= image_tag 'icons_postgresql.svg', alt: 'PostgreSQL' %><p>PostgreSQL</p></li>
+        <li><%= image_tag 'icons_html.svg', alt: 'HTML' %><p>HTML</p></li>
+        <li><%= image_tag 'icons_css.svg', alt: 'CSS' %><p>CSS</p></li>
+        <li><%= image_tag 'icons_sass.svg', alt: 'Sass' %><p>Sass</p></li>
+        <li><%= image_tag 'icons_bootstrap.svg', alt: 'Bootstrap' %><p>Bootstrap</p></li>
+        <li><%= image_tag 'icons_js.svg', alt: 'Javascript' %><p>Javascript</p></li>
+        <li><%= image_tag 'icons_jquery.svg', alt: 'jQuery' %><p>jQuery</p></li>
+        <%= image_tag '' %>
+      </ul>
+      <ul class="design-skills">
+        <li><%= image_tag 'icons_photoshop.svg', alt: 'Photoshop' %><p>Photoshop</p></li>
+        <li><%= image_tag 'icons_illustrator.svg', alt: 'Illustrator' %><p>Illustrator</p></li>
+        <li><%= image_tag 'icons_indesign.svg', alt: 'InDesign' %><p>InDesign</p></li>
+        <li><%= image_tag 'icons_3dsmax.svg', alt: '3ds Max' %><p>3ds Max</p></li>
+      </ul>
+    </div> <!-- end of skills -->
+
+    <div class="main-section">
+      <section>
+        <h3>Personal Summary</h3>
+        <p class="content">
+          I am a <span>full-stack web developer</span> and designer born in 1986 and based in Lisbon, Portugal. <br>
+          Graduated from Le Wagon - <span>the world’s leading web development bootcamp</span> - with a
+          comprehensive set of technical skills that prepared me to make it as a fierce developer. <br>
+          Over a decade of architecture experience, I increased my <span>creativity</span>, <span>eagerness to learn</span> and
+          <span>organisational skills</span> and I wish to pair those strengths with this newly acquired knowledge by
+          doing some exciting work in a professional and challenging environment.
+        </p>
+      </section>
+      <section>
+        <h3>Experience</h3>
+        <article class="list">
+          <div class="bullet">•</div>
+          <div>
+            <h4><a href="http://host-roulette.com" target="_blank">Host Roulette</a><span> - who's next?</span></h4>
+            <p class="content">
+              Event management platform with host accountability: for friends who can’t seem to make plans over
+              the group chat. ( my idea ) Developed within the scope of Le Wagon, final project. <br>
+              Two week team project using the taught tools and a few others freshly researched. ( logo by me )
+            </p>
+          </div>
+        </article>
+
+        <article class="list">
+          <div class="bullet">•</div>
+          <div>
+            <h4><a href="http://dragons-r-us.herokuapp.com" target="_blank">Dragons ‘Я‘ Us</a><span> - your journey begins here</span></h4>
+            <p class="content">
+              Dragon rental platform. Find a dragon fit for your needs. Developed within the scope of Le Wagon.
+              First bootcamp group project, done in a week. Main goal was to get familiar with team collaboration.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section>
+        <h3>Education</h3>
+        <article class="no-list">
+          <div class="article-header">
+            <h4><a href="http://lewagon.com/lisbon" target="_blank">Le Wagon Coding Bootcamp</a></h4>
+            <div class="details">
+              <p>Lisbon, Portugal</p>
+              <p>Jan 2020 - Mar 2020</p>
+            </div>
+          </div>
+          <p class="content">
+            During the intensive 9-week, full-time web development course, I learned a set of technologies,
+            frameworks and libraries that include, among others, <span>Ruby on Rails</span>, SQL, HTML, CSS, Sass,
+            Bootstrap and JavaScript.
+          </p>
+        </article>
+
+        <article class="no-list">
+          <div class="article-header">
+            <h4><a href="http://uc.pt/fctuc/darq" target="_blank">BSc + MSc in Architecture</a></h4>
+            <div class="details">
+              <p>Coimbra, Portugal</p>
+              <p>Sep 2004 - Jul 2011</p>
+            </div>
+          </div>
+          <p class="content">
+            University of Coimbra alumnus. Subjects included: architectural project, drawing, composition,
+            geometry, structures, architectural history and theory, urban planning, geography and anthropology.
+          </p>
+        </article>
+      </section>
+      <section>
+        <h3>Previous Employment</h3>
+        <article class="no-list">
+          <div class="article-header">
+            <h4><a href="http://aurora.com.pt" target="_blank">Aurora Arquitectos</a></h4>
+            <div class="details">
+              <p>Lisbon, Portugal</p>
+              <p>Sep 2016 - Aug 2018</p>
+            </div>
+          </div>
+          <p class="content">
+            Worked as an Architect on residential projects throughout Portugal. Explored <span>3D imaging</span> and <span>VR</span>.
+          </p>
+        </article>
+
+        <article class="no-list">
+          <div class="article-header">
+            <h4><a href="http://hollandharvey.com/" target="_blank">Holland Harvey Architects</a></h4>
+            <div class="details">
+              <p>London, United Kingdom</p>
+              <p>Jun 2015 - Aug 2016</p>
+            </div>
+          </div>
+          <p class="content">
+            Worked abroad as an Architect on residential projects throughout London and on an office building
+            / hotel in Vilnius, Lithuania. Explored foreign cultures and approaches to the profession.
+          </p>
+        </article>
+
+        <article class="no-list">
+          <div class="article-header">
+            <h4><a href="http://arquivonu.blogspot.com/" target="_blank">NU magazine</a></h4>
+            <div class="details">
+              <p>Coimbra, Portugal</p>
+              <p>Sep 2005 - Jun 2008</p>
+            </div>
+          </div>
+          <p class="content">
+            Member of the Graphics team and overall contributor. Explored <span>graphic design</span> rules and software.
+          </p>
+        </article>
+      </section>
+      <section>
+        <h3>Language Skills</h3>
+        <p class="content">
+          <span>Portuguese</span> ( native ), <span>English</span> ( advanced ), <span>Spanish</span> ( basic )
+        </p>
+      </section>
+      <section>
+        <h3>Awards & Interests</h3>
+        <p class="content">
+          First Prize in <span>Secil Universities Award 2009 Architecture</span> - largest and most important Portuguese
+          architecture competition - proposal for a prison refurbishment. <br>
+          Interested in Architecture, Graphic Design, Industrial Design, Crafting, Physics, Outdoors, Travelling
+        </p>
+      </section>
+    </div> <!-- end of main -->
+  </div> <!-- end of container-main -->
+</div> <!-- end of container -->
